@@ -93,7 +93,9 @@ With CORS:
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # In production, specify exact origins
+    allow_origins=[ "http://localhost:5173", # In production, specify exact origins
+                    "https://my-frontend-name.onrender.com",  # TODO: Production (we'll get this URL later)
+                    "*" ],  # TODO: Temporary - REMOVE AFTER TESTING
     allow_credentials=True,
     allow_methods=["*"],  # Allow all HTTP methods (GET, POST, etc.)
     allow_headers=["*"],  # Allow all headers
@@ -108,9 +110,8 @@ db = Database()
 
 TMDB_API_KEY = os.getenv("TMDB_API_KEY")
 
-if TMDB_API_KEY == None:
-    print("[FILE:main.py] Couldn't find TMDB Api key..")
-    exit
+if not TMDB_API_KEY:
+    raise ValueError("❌ TMDB_API_KEY environment variable not set!")
 
 tmdb = TMDBService(TMDB_API_KEY)
 
