@@ -90,11 +90,15 @@ With CORS:
 - We tell browser "localhost:5500 is allowed"
 - Frontend can now make requests ✓
 """
+ORIGIN_URL = os.getenv("ORIGIN_URL");
+
+if not ORIGIN_URL:
+    raise ValueError("❌ ORIGIN_URL environment variable not set!")
 
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[ "http://localhost:5173", # In production, specify exact origins
-                    "https://my-frontend-name.onrender.com",  # TODO: Production (we'll get this URL later)
+                    ORIGIN_URL, 
                     "*" ],  # TODO: Temporary - REMOVE AFTER TESTING
     allow_credentials=True,
     allow_methods=["*"],  # Allow all HTTP methods (GET, POST, etc.)
