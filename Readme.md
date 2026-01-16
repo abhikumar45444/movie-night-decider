@@ -18,7 +18,7 @@ A real-time collaborative web application that helps groups decide which movie t
 - **Fast & Efficient** - Async architecture for optimal performance
 
 ## 🎥 Demo
-Check out: [demo]()
+Check out: [Movie Night Decider](https://movie-night-decider-frontend.onrender.com)
 
 ## 🛠️ Tech Stack
 
@@ -79,6 +79,7 @@ cd movie-night-decider
 
 ### 3. Frontend Setup
 ```bash
+# NOTE: It uses react+vite setup for frontend
 # Navigate to frontend-react folder (from project root)
 cd frontend/frontend-react
 
@@ -104,13 +105,13 @@ cd frontend/frontend-react
 npm run dev
 ```
 
-Frontend will open automatically at `http://localhost:3000`
+Frontend will open automatically at `http://localhost:5137`
 
 ## 📖 Usage Guide
 
 ### Creating a Room
 
-1. Open the app at `http://localhost:3000`
+1. Open the app at `http://localhost:5137`
 2. Click **"Create New Room"**
 3. You'll be assigned a random username (e.g., User123)
 4. Share the 6-character room code with friends
@@ -221,6 +222,8 @@ movie-night-decider/
 ```
 
 ## 💾 Database Schema
+### ER-Diagram
+![Schema-ER-Diagram](./Schema-ER-Diagram.PNG)
 
 ### Tables
 
