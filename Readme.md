@@ -18,7 +18,7 @@ A real-time collaborative web application that helps groups decide which movie t
 - **Fast & Efficient** - Async architecture for optimal performance
 
 ## 🎥 Demo
-![Check Out: ]()
+Check out: [demo]()
 
 ## 🛠️ Tech Stack
 
@@ -58,19 +58,20 @@ cd movie-night-decider
 ### 2. Backend Setup
 ```bash
 # Navigate to backend folder
-cd backend
+  cd backend
 
 # Create virtual environment
-python -m venv venv
+  python -m venv venv
 
 # Activate virtual environment
-# On Windows:
-venv\Scripts\activate
-# On Mac/Linux:
-source venv/bin/activate
+ On Windows:
+    venv\Scripts\activate
+
+ On Mac/Linux:
+    source venv/bin/activate
 
 # Install dependencies
-pip install -r requirements.txt
+  pip install -r requirements.txt
 
 # Add your TMDB API key
 # Open main.py and replace YOUR_TMDB_API_KEY_HERE with your actual key
@@ -79,7 +80,7 @@ pip install -r requirements.txt
 ### 3. Frontend Setup
 ```bash
 # Navigate to frontend-react folder (from project root)
-cd frontend-react
+cd frontend/frontend-react
 
 # Install dependencies
 npm install
@@ -100,7 +101,6 @@ Backend will run on `http://localhost:8000`
 ```bash
 # From frontend-react folder (new terminal)
 cd frontend/frontend-react
-npm install
 npm run dev
 ```
 
@@ -393,10 +393,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👨‍💻 Author
 
-**Your Name**
-- GitHub: [@yabhikumar45444](https://github.com/yabhikumar45444)
-- LinkedIn: [Your Name](https://linkedin.com/in/yourprofile)
-- Portfolio: [yourwebsite.com](https://yourwebsite.com)
+**Dinesh Kumar**
+- GitHub: [@abhikumar45444](https://github.com/yabhikumar45444)
+- LinkedIn: [Dinesh Kumar](https://linkedin.com/in/erdineshkr)
 
 ## 🙏 Acknowledgments
 
