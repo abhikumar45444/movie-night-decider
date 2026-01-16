@@ -394,7 +394,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Author
 
 **Dinesh Kumar**
-- GitHub: [@abhikumar45444](https://github.com/yabhikumar45444)
+- GitHub: [@abhikumar45444](https://github.com/abhikumar45444)
 - LinkedIn: [Dinesh Kumar](https://linkedin.com/in/erdineshkr)
 
 ## 🙏 Acknowledgments
@@ -409,7 +409,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 If you have any questions or run into issues:
 
 1. Check the [Troubleshooting](#-troubleshooting) section
-2. Search existing [Issues](https://github.com/yabhikumar45444/movie-night-decider/issues)
+2. Search existing [Issues](https://github.com/abhikumar45444/movie-night-decider/issues)
 3. Open a new issue with:
    - Detailed description
    - Steps to reproduce
